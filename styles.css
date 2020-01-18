@@ -1,0 +1,100 @@
+/* #C6011F Havard crimson - background
+#000, #FFF Black/White
+
+logo/team name date time city*/
+
+body
+{
+    background-color: #C6011F;
+}
+
+.logoContainer 
+{
+    /* position: relative; */
+    text-align: center;
+}
+
+.homeLogo
+{
+    position: relative;
+    
+    /*opacity: .5;
+    filter: alpha(opacity=50);*/
+}
+
+.logoText
+{
+    position: relative;
+    bottom: 8px;
+    font-size: 40px;
+    font-family: 'Alata', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.schedule
+{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+table 
+{
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+}
+
+tbody
+{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+td{
+    display: table-cell;
+    vertical-align: center;
+    padding: 15px;
+}
+
+#Home
+{
+    color: #FFF;
+}
+
+#away
+{
+    color: #000;
+}
+
+.vs
+{
+    text-align: center;
+}
+
+.time
+{
+    margin:0;
+    padding: 0;
+    position: relative;
+    top: 12px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.MLB
+{
+    text-emphasis: center;
+}
+
+footer
+{
+    display: block;
+    text-align: center;
+}
